@@ -1,0 +1,18 @@
+{
+  "name": "js-2.8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-start": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
+}
